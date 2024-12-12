@@ -1,0 +1,178 @@
+{
+    "filterSets": [],
+    "layoutConfig": [
+        {
+            "type": "column",
+            "id": "LTIjOx2d2LSGREYv3qoWR",
+            "isClosable": true,
+            "isFocusOnShow": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+                {
+                    "type": "stack",
+                    "id": "yiQm5v66pvXgKwgolimiS",
+                    "isClosable": true,
+                    "isFocusOnShow": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "activeItemIndex": 0,
+                    "height": 13.099415204678365,
+                    "content": [
+                        {
+                            "type": "react-component",
+                            "component": "ConsolePanel",
+                            "title": "Console",
+                            "isClosable": false,
+                            "id": "OGgY6Z0gwoLyZwbAQ1ekZ",
+                            "props": {
+                                "panelState": {
+                                    "consoleSettings": {},
+                                    "itemIds": []
+                                }
+                            },
+                            "componentName": "lm-react-component",
+                            "isFocusOnShow": true,
+                            "reorderEnabled": true,
+                            "componentState": null
+                        },
+                        {
+                            "type": "react-component",
+                            "component": "LogPanel",
+                            "title": "Log",
+                            "isClosable": false,
+                            "id": "6zwseoDiJYNyPYF8dQGdA",
+                            "props": {},
+                            "componentName": "lm-react-component",
+                            "isFocusOnShow": true,
+                            "reorderEnabled": true,
+                            "componentState": null
+                        },
+                        {
+                            "type": "react-component",
+                            "component": "CommandHistoryPanel",
+                            "title": "Command History",
+                            "isClosable": false,
+                            "id": "0CNE7aoGEX1grh9OrQa9p",
+                            "props": {
+                                "panelState": {}
+                            },
+                            "componentName": "lm-react-component",
+                            "isFocusOnShow": true,
+                            "reorderEnabled": true,
+                            "componentState": null
+                        },
+                        {
+                            "type": "react-component",
+                            "component": "FileExplorerPanel",
+                            "title": "File Explorer",
+                            "isClosable": false,
+                            "id": "HLC929l2g07dbE_65MTeW",
+                            "props": {},
+                            "componentName": "lm-react-component",
+                            "isFocusOnShow": true,
+                            "reorderEnabled": true,
+                            "componentState": null
+                        }
+                    ]
+                },
+                {
+                    "type": "row",
+                    "id": "phqDLXmoQGX-4N__1BR8U",
+                    "isClosable": true,
+                    "isFocusOnShow": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "height": 86.90058479532165,
+                    "content": [
+                        {
+                            "type": "stack",
+                            "title": "Notebooks",
+                            "id": "9hw64FirqNBUDOoaOwCGE",
+                            "isClosable": true,
+                            "isFocusOnShow": true,
+                            "reorderEnabled": true,
+                            "width": 100,
+                            "activeItemIndex": 0,
+                            "content": [
+                                {
+                                    "type": "react-component",
+                                    "component": "IrisGridPanel",
+                                    "props": {
+                                        "metadata": {
+                                            "type": "Table",
+                                            "name": "data",
+                                            "id": "cy9kYXRh"
+                                        },
+                                        "panelState": {
+                                            "irisGridPanelState": {
+                                                "isSelectingPartition": false,
+                                                "partitions": [],
+                                                "advancedSettings": [
+                                                    [
+                                                        "filter-control-change-clears-all-filters",
+                                                        false
+                                                    ],
+                                                    [
+                                                        "link-change-clears-all-filters",
+                                                        false
+                                                    ]
+                                                ]
+                                            },
+                                            "irisGridState": {
+                                                "advancedFilters": [],
+                                                "aggregationSettings": {
+                                                    "aggregations": [],
+                                                    "showOnTop": false
+                                                },
+                                                "customColumnFormatMap": [],
+                                                "isFilterBarShown": false,
+                                                "quickFilters": [],
+                                                "sorts": [],
+                                                "userColumnWidths": [],
+                                                "userRowHeights": [],
+                                                "customColumns": [],
+                                                "conditionalFormats": [],
+                                                "reverse": false,
+                                                "showSearchBar": false,
+                                                "searchValue": "",
+                                                "selectDistinctColumns": [],
+                                                "selectedSearchColumns": [],
+                                                "invertSearchColumns": true,
+                                                "pendingDataMap": [],
+                                                "frozenColumns": null,
+                                                "columnHeaderGroups": []
+                                            },
+                                            "gridState": {
+                                                "isStuckToBottom": false,
+                                                "isStuckToRight": false,
+                                                "movedColumns": [],
+                                                "movedRows": []
+                                            },
+                                            "pluginState": null
+                                        }
+                                    },
+                                    "title": "data",
+                                    "id": "7kDhrtb37WIbJ8oiwjYVZ",
+                                    "componentName": "lm-react-component",
+                                    "isClosable": true,
+                                    "isFocusOnShow": true,
+                                    "reorderEnabled": true,
+                                    "componentState": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "links": [],
+    "pluginDataMap": {
+        "@deephaven/js-plugin-ui.DashboardPlugin": {
+            "openWidgets": {}
+        }
+    },
+    "version": 2
+}
